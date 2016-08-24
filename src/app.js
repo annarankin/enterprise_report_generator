@@ -7,6 +7,8 @@ class App extends Component {
     return(
       <div className="app">
         <h1>Welcome! &hearts;</h1>
+        <p>Looks like you're not connected to the database at the moment.</p>
+        <button>Connect Me</button>
       </div>
       )
   }
