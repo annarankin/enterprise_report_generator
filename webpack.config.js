@@ -23,7 +23,7 @@ module.exports = {
     }, {
       test: /\.scss$/,
       include: path.join(__dirname, 'src', 'styles'),
-      loader: ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader')
+      loader: ExtractTextPlugin.extract('style', 'css!sass')
     }]
   },
   plugins: [
